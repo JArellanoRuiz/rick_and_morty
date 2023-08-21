@@ -1,5 +1,8 @@
 body {
-  margin: 0;
+  margin: 10px;
+  
+  background-image: linear-gradient(to right bottom, #01327c, #313988, #4d4093, #67479d, #804ea6);
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +14,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
