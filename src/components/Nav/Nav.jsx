@@ -1,10 +1,11 @@
 //import style from "./Nav.module.css";
 import SearchBar from '../SearchBar/SearchBar.jsx';
 import { NavLink } from 'react-router-dom';
+import style from './Nav.module.css'
 
 function Nav({onSearch, randomize, logout}) {
    return (
-      <nav > 
+      <nav className={style.nav}> 
          <div>
             <button><NavLink to='/about'>About</NavLink></button>
             <button><NavLink to='/home'>Home</NavLink></button> 
